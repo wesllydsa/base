@@ -1,0 +1,478 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Acessar site \u0027Google Drive\u0027",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 560204200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "estou na pagina inical do site \u0027Google Drive\u0027",
+            "match": {
+              "location": "Teste.estou_na_pagina_inical_do_site_Google_Drive()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9191900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clico em \u0027Aceder ao Google Drive\u0027",
+            "match": {
+              "location": "Teste.clico_em_Aceder_ao_Google_Drive()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12184700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "preencho \u0027E-mail\u0027",
+            "match": {
+              "location": "Teste.preencho_E_mail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14553000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "preencho \u0027Senha\u0027",
+            "match": {
+              "location": "Teste.preencho_Senha()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10236400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "sistema apresenta tela \u0027Meu Drive\u0027",
+            "match": {
+              "location": "Teste.sistema_apresenta_tela_Meu_Drive()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1047334900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Teste.before(Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Upload de Arquivo",
+        "description": "",
+        "id": "google-drive;upload-de-arquivo;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 41577600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clico no botao \u0027Novo\u0027",
+            "match": {
+              "location": "Teste.clico_no_botao_Novo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16940600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clico em \u0027Upload de arquivos\u0027",
+            "match": {
+              "location": "Teste.clico_em_Upload_de_arquivos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32681800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "seleciono arquivo \"IMAGEM_NAME\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "IMAGEM_NAME",
+                  "offset": 19
+                }
+              ],
+              "location": "Teste.seleciono_arquivo(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6940300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "valido arquivo salvo no \u0027Google Drive\u0027",
+            "match": {
+              "location": "Teste.valido_arquivo_salvo_no_Google_Drive()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature:GoogleDrive"
+          },
+          {
+            "name": "@Test:UploadDeArquivo"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Acessar site \u0027Google Drive\u0027",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8720600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "estou na pagina inical do site \u0027Google Drive\u0027",
+            "match": {
+              "location": "Teste.estou_na_pagina_inical_do_site_Google_Drive()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8223900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clico em \u0027Aceder ao Google Drive\u0027",
+            "match": {
+              "location": "Teste.clico_em_Aceder_ao_Google_Drive()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9543800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "preencho \u0027E-mail\u0027",
+            "match": {
+              "location": "Teste.preencho_E_mail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6964000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "preencho \u0027Senha\u0027",
+            "match": {
+              "location": "Teste.preencho_Senha()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8916500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "sistema apresenta tela \u0027Meu Drive\u0027",
+            "match": {
+              "location": "Teste.sistema_apresenta_tela_Meu_Drive()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12351600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Teste.before(Scenario)"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Download de Arquivo",
+        "description": "",
+        "id": "google-drive;download-de-arquivo;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 44182900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "clico com o botao direito do mouse no arquivo \"IMAGEM_NAME\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "IMAGEM_NAME",
+                  "offset": 47
+                }
+              ],
+              "location": "Teste.clico_com_o_botao_direito_do_mouse_no_arquivo(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15224200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "clico em \u0027Fazer Download\u0027",
+            "match": {
+              "location": "Teste.clico_em_Fazer_Download()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5827400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "valido arquivo salvo com sucesso",
+            "match": {
+              "location": "Teste.valido_arquivo_salvo_com_sucesso()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature:GoogleDrive"
+          },
+          {
+            "name": "@Test:DownloadDeArquivo"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Acessar site \u0027Google Drive\u0027",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7005300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "estou na pagina inical do site \u0027Google Drive\u0027",
+            "match": {
+              "location": "Teste.estou_na_pagina_inical_do_site_Google_Drive()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5458600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clico em \u0027Aceder ao Google Drive\u0027",
+            "match": {
+              "location": "Teste.clico_em_Aceder_ao_Google_Drive()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15415500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "preencho \u0027E-mail\u0027",
+            "match": {
+              "location": "Teste.preencho_E_mail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15331800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "preencho \u0027Senha\u0027",
+            "match": {
+              "location": "Teste.preencho_Senha()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8036600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "sistema apresenta tela \u0027Meu Drive\u0027",
+            "match": {
+              "location": "Teste.sistema_apresenta_tela_Meu_Drive()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 15188600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Teste.before(Scenario)"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Remover Arquivo",
+        "description": "",
+        "id": "google-drive;remover-arquivo;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21327000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "clico com o botao direito do mouse no arquivo \"IMAGEM_NAME\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "IMAGEM_NAME",
+                  "offset": 47
+                }
+              ],
+              "location": "Teste.clico_com_o_botao_direito_do_mouse_no_arquivo(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8676900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "clico em \u0027Remover\u0027",
+            "match": {
+              "location": "Teste.clico_em_Remover()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8043700,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "clico no menu \u0027Lixeira\u0027",
+            "match": {
+              "location": "Teste.clico_no_menu_Lixeira()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5408200,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "seleciono a opção \u0027Esvaziar lixeira\u0027",
+            "match": {
+              "location": "Teste.seleciono_a_opção_Esvaziar_lixeira()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11091700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "valido arquivo removido com sucesso",
+            "match": {
+              "location": "Teste.valido_arquivo_removido_com_sucesso()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature:GoogleDrive"
+          },
+          {
+            "name": "@Test:RemoverArquivo"
+          }
+        ]
+      }
+    ],
+    "name": "Google Drive",
+    "description": "",
+    "id": "google-drive",
+    "keyword": "Feature",
+    "uri": "features/Feature.feature",
+    "tags": [
+      {
+        "name": "@Feature:GoogleDrive",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="3.04183">
+<testcase classname="Google Drive" name="Upload de Arquivo" time="2.480212">
+<system-out><![CDATA[Given estou na pagina inical do site 'Google Drive'.........................passed
+When clico em 'Aceder ao Google Drive'......................................passed
+And preencho 'E-mail'.......................................................passed
+And preencho 'Senha'........................................................passed
+Then sistema apresenta tela 'Meu Drive'.....................................passed
+When clico no botao 'Novo'..................................................passed
+And clico em 'Upload de arquivos'...........................................passed
+And seleciono arquivo "IMAGEM_NAME".........................................passed
+Then valido arquivo salvo no 'Google Drive'.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Google Drive" name="Download de Arquivo" time="0.267255">
+<system-out><![CDATA[Given estou na pagina inical do site 'Google Drive'.........................passed
+When clico em 'Aceder ao Google Drive'......................................passed
+And preencho 'E-mail'.......................................................passed
+And preencho 'Senha'........................................................passed
+Then sistema apresenta tela 'Meu Drive'.....................................passed
+When clico com o botao direito do mouse no arquivo "IMAGEM_NAME"............passed
+And clico em 'Fazer Download'...............................................passed
+Then valido arquivo salvo com sucesso.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Google Drive" name="Remover Arquivo" time="0.294363">
+<system-out><![CDATA[Given estou na pagina inical do site 'Google Drive'.........................passed
+When clico em 'Aceder ao Google Drive'......................................passed
+And preencho 'E-mail'.......................................................passed
+And preencho 'Senha'........................................................passed
+Then sistema apresenta tela 'Meu Drive'.....................................passed
+When clico com o botao direito do mouse no arquivo "IMAGEM_NAME"............passed
+And clico em 'Remover'......................................................passed
+And clico no menu 'Lixeira'.................................................passed
+And seleciono a opção 'Esvaziar lixeira'....................................passed
+Then valido arquivo removido com sucesso....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

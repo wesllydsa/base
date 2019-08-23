@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Exemplo de Feature" skipped="0" tests="1" time="0.84" timestamp="2019-08-20 05:36:47"><testcase name="exemplo cenario"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+br.com.just.base.stepDefinition.StepDefinition.exemplo_e(StepDefinition.java:31)&#13;
+✽.exemplo e(features/Feature.feature:4)&#13;
+</system-err></testcase></testsuite>

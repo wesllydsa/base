@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Feature" skipped="0" tests="1" time="0.59" timestamp="2019-08-20 05:18:29"><testcase name="Feature"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+br.com.just.base.stepDefinition.StepDefinition.teste(StepDefinition.java:26)&#13;
+✽.teste(features/Feature.feature:7)&#13;
+</system-err></testcase></testsuite>
